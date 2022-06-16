@@ -4,11 +4,11 @@ import CartWidget from "./CartWidget";
 const NavBar = () => {
 	return (
 		<nav>
-			<div class="nav-wrapper teal">
+			<div className="nav-wrapper teal">
 				<a href="#!" class="brand-logo">
 					<i class="material-icons">cloud</i>Logo
 				</a>
-				<ul class="right hide-on-med-and-down">
+				<ul className="right hide-on-med-and-down">
 					<li>
 						<a href="#!">
 							<CartWidget />
